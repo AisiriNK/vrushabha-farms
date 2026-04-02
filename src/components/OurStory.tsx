@@ -22,6 +22,18 @@ const stories = [
     text: "Our ghee is made the way it has been for thousands of years. Fresh curd is hand-churned using a wooden churner (Bilona), the butter is collected, and slow-cooked over a low flame until pure golden ghee emerges.",
     alt: "Traditional Bilona churning process",
   },
+  {
+    image: farmLandscape,
+    title: "Healthy & Happy Animals",
+    text: "We believe that the quality of ghee starts with the well-being of our animals. Our herd enjoys spacious grazing areas, natural food, and personalized care from our dedicated farmers. Every animal on Vrushabha Farms is treated with respect and love.",
+    alt: "Healthy Gir cows grazing at Vrushabha Farms",
+  },
+  {
+    image: girCow,
+    title: "Pure A2 Ghee",
+    text: "Our A2 ghee is rich in nutrients and easier to digest. Each batch is carefully produced to maintain the highest standards of purity. We never use any additives or preservatives — just pure, golden ghee made from the milk of our beloved Gir cows.",
+    alt: "Pure golden A2 ghee from Vrushabha Farms",
+  },
 ];
 
 const OurStory = () => {
