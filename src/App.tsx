@@ -7,6 +7,7 @@ import { CartProvider } from "@/contexts/CartContext";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import OurStoryPage from "./pages/OurStory.tsx";
+import Contact from "./pages/Contact.tsx";
 
 const queryClient = new QueryClient();
 
