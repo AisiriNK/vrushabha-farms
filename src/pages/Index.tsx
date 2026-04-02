@@ -5,7 +5,7 @@ import ProductSection from "@/components/ProductSection";
 import BenefitsSection from "@/components/BenefitsSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import ReviewsSection from "@/components/ReviewsSection";
-import OurStory from "@/components/OurStory";
+
 import UrgencySection from "@/components/UrgencySection";
 import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
