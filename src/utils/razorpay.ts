@@ -33,7 +33,7 @@ export const initiatePayment = async ({ amount, productName, onSuccess, onFailur
   }
 
   const options = {
-    key: "rzp_test_1DP5mmOlF5G5ag", // Razorpay test key
+    key: import.meta.env.VITE_RAZORPAY_KEY_ID || "rzp_test_1DP5mmOlF5G5ag",
     amount: amount * 100, // Amount in paise
     currency: "INR",
     name: "Vrushabha Farms",

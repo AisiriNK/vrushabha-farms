@@ -8,9 +8,9 @@ const HeroSection = () => {
     addItem({
       id: "a2-ghee-500ml",
       name: "A2 Bilona Gir Cow Ghee",
-      price: 899,
+      price: 2500,
       image: gheeHero,
-      weight: "500ml",
+      weight: "1000ml",
     });
   };
 
@@ -36,7 +36,7 @@ const HeroSection = () => {
 
             <div className="flex flex-wrap gap-4 pt-2">
               <button onClick={handleBuyNow} className="px-8 py-3.5 bg-gradient-olive text-primary-foreground font-body font-semibold rounded-lg shadow-warm hover:shadow-warm-lg hover:scale-105 transition-all duration-300">
-                Buy Now — ₹899
+                Buy Now — ₹2500
               </button>
               <a href="#benefits" className="px-8 py-3.5 border-2 border-primary text-primary font-body font-semibold rounded-lg hover:bg-primary hover:text-primary-foreground transition-all duration-300">
                 Learn More
@@ -50,10 +50,6 @@ const HeroSection = () => {
                     {String.fromCharCode(64 + i)}
                   </div>
                 ))}
-              </div>
-              <div>
-                <div className="flex text-accent text-sm">★★★★★</div>
-                <p className="text-xs text-muted-foreground">Rated 4.9 by 2,000+ happy customers</p>
               </div>
             </div>
           </div>

@@ -5,9 +5,8 @@ import ProductSection from "@/components/ProductSection";
 import BenefitsSection from "@/components/BenefitsSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import ReviewsSection from "@/components/ReviewsSection";
-
+import ContactSection from "@/components/ContactSection";
 import UrgencySection from "@/components/UrgencySection";
-import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
 import CartDrawer from "@/components/CartDrawer";
 
@@ -22,9 +21,8 @@ const Index = () => {
       <BenefitsSection />
       <WhyChooseUs />
       <ReviewsSection />
-      
+      <ContactSection />
       <UrgencySection />
-      <Newsletter />
       <Footer />
     </div>
   );

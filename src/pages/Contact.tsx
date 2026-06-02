@@ -6,9 +6,9 @@ import CartDrawer from "@/components/CartDrawer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { useToast } from "@/hooks/use-toast";
 
-const EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID";
-const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";
-const EMAILJS_PUBLIC_KEY = "YOUR_PUBLIC_KEY";
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || "YOUR_SERVICE_ID";
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "YOUR_TEMPLATE_ID";
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "YOUR_PUBLIC_KEY";
 
 const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -115,15 +115,15 @@ const Contact = () => {
           <div className="mt-12 grid sm:grid-cols-3 gap-6 text-center">
             <div className="bg-card rounded-2xl p-6 shadow-warm">
               <p className="font-display font-bold text-foreground mb-1">Email</p>
-              <p className="text-sm text-muted-foreground">hello@vrushabha.farm</p>
+              <p className="text-sm text-muted-foreground">Info@vrushabhafarms.com</p>
             </div>
             <div className="bg-card rounded-2xl p-6 shadow-warm">
               <p className="font-display font-bold text-foreground mb-1">Phone</p>
-              <p className="text-sm text-muted-foreground">+91 98765 43210</p>
+              <p className="text-sm text-muted-foreground">+91 90361 69033</p>
             </div>
             <div className="bg-card rounded-2xl p-6 shadow-warm">
               <p className="font-display font-bold text-foreground mb-1">Location</p>
-              <p className="text-sm text-muted-foreground">Gujarat, India</p>
+              <p className="text-sm text-muted-foreground">Shivamogga, India</p>
             </div>
           </div>
         </div>

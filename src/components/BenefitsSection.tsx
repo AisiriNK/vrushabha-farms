@@ -29,7 +29,7 @@ const BenefitsSection = () => {
                 <b.icon size={24} className="text-primary" />
               </div>
               <h3 className="font-display text-lg font-semibold text-foreground mb-2">{b.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">{b.desc}</p>
+              <p className="text-base text-muted-foreground leading-relaxed">{b.desc}</p>
             </div>
           ))}
         </div>

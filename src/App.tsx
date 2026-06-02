@@ -8,6 +8,7 @@ import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import OurStoryPage from "./pages/OurStory.tsx";
 import Contact from "./pages/Contact.tsx";
+import Loading from "./pages/Loading.tsx";
 
 const queryClient = new QueryClient();
 
@@ -15,6 +16,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <CartProvider>
+        <Loading />
         <Toaster />
         <Sonner />
         <BrowserRouter>

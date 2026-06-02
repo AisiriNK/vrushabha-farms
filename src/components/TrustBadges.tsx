@@ -26,8 +26,8 @@ const TrustBadges = () => {
                 <badge.icon size={24} className="text-primary" />
               </div>
               <div>
-                <p className="font-display text-sm font-semibold text-foreground">{badge.label}</p>
-                <p className="text-xs text-muted-foreground">{badge.desc}</p>
+                <p className="font-display text-xl font-semibold text-foreground">{badge.label}</p>
+                <p className="text-l text-muted-foreground">{badge.desc}</p>
               </div>
             </div>
           ))}

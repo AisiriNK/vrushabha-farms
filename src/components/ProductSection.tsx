@@ -7,9 +7,8 @@ import { initiatePayment } from "@/utils/razorpay";
 import { toast } from "sonner";
 
 const variants = [
-  { id: "a2-ghee-250ml", weight: "250ml", price: 499 },
-  { id: "a2-ghee-500ml", weight: "500ml", price: 899 },
-  { id: "a2-ghee-1l", weight: "1 Litre", price: 1599 },
+  { id: "a2-ghee-500ml", weight: "500ml", price: 1250 },
+  { id: "a2-ghee-1l", weight: "1 Litre", price: 2500 },
 ];
 
 const ProductSection = () => {
@@ -52,10 +51,6 @@ const ProductSection = () => {
             <div>
               <p className="text-sm text-accent font-semibold uppercase tracking-wider mb-2">Vrushabha Farms</p>
               <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground">A2 Bilona Gir Cow Ghee</h2>
-              <div className="flex items-center gap-2 mt-3">
-                <span className="text-accent">★★★★★</span>
-                <span className="text-sm text-muted-foreground">4.9 (2,000+ reviews)</span>
-              </div>
             </div>
 
             <ul className="space-y-2 text-sm text-muted-foreground font-body">

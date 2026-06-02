@@ -8,9 +8,9 @@ const UrgencySection = () => {
     addItem({
       id: "a2-ghee-500ml",
       name: "A2 Bilona Gir Cow Ghee",
-      price: 899,
+      price: 2500,
       image: gheeHero,
-      weight: "500ml",
+      weight: "1000ml",
     });
   };
 
@@ -24,7 +24,7 @@ const UrgencySection = () => {
           Each batch of our A2 Bilona Ghee is handcrafted in small quantities. Once sold out, the next batch takes 2–3 weeks. Order now to secure yours.
         </p>
         <button onClick={handleBuy} className="px-10 py-4 bg-accent text-accent-foreground font-body font-bold rounded-lg shadow-warm-lg hover:scale-105 transition-all duration-300 text-lg">
-          Order Now — ₹899
+          Order Now — ₹2500
         </button>
       </div>
     </section>

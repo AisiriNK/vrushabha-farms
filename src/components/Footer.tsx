@@ -31,9 +31,9 @@ const Footer = () => {
           <div>
             <h4 className="font-display text-sm font-semibold mb-4 uppercase tracking-wider">Contact</h4>
             <ul className="space-y-2 text-sm text-background/60">
-              <li>hello@vrushabha.farm</li>
-              <li>+91 98765 43210</li>
-              <li>Gujarat, India</li>
+              <li>Info@vrushabhafarms.com</li>
+              <li>+91 90361 69033</li>
+              <li>Shivamogga, India</li>
             </ul>
           </div>
         </div>

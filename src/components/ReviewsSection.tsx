@@ -18,10 +18,6 @@ const ReviewsSection = () => {
         <div className="text-center mb-14">
           <p className="text-sm text-accent font-semibold uppercase tracking-wider mb-3">Customer Love</p>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground">What Our Customers Say</h2>
-          <div className="flex items-center justify-center gap-2 mt-4">
-            <span className="text-accent text-xl">★★★★★</span>
-            <span className="text-muted-foreground font-body">4.9 average from 2,000+ reviews</span>
-          </div>
         </div>
 
         <div className={`grid sm:grid-cols-2 lg:grid-cols-3 gap-6 ${isVisible ? "" : "opacity-0"}`}>
