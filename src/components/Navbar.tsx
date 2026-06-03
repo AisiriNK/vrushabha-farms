@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { ShoppingCart, Menu, X } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
+import logo from "@/assets/logo.jpeg";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -51,7 +52,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-card/95 backdrop-blur-md shadow-warm" : "bg-transparent"}`}>
       <div className="container-narrow mx-auto flex items-center justify-between px-4 sm:px-6 py-4">
         <button onClick={() => navigate("/")} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <img src="/src/assets/logo.jpeg" alt="Vrushabha Farms" className="h-12 w-12 sm:h-14 sm:w-14 object-contain" />
+          <img src={logo} alt="Vrushabha Farms" className="h-12 w-12 sm:h-14 sm:w-14 object-contain" />
           <span className="hidden sm:inline font-display text-lg sm:text-xl font-bold text-foreground tracking-wide">
             Vrushabha <span className="text-primary">Farms</span>
           </span>

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logo from "@/assets/logo.jpeg";
 
 const Loading = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -17,7 +18,7 @@ const Loading = () => {
     <div className="fixed inset-0 z-50 bg-background flex items-center justify-center">
       <div className="flex flex-col items-center gap-6">
         <img
-          src="/src/assets/logo.jpeg"
+          src={logo}
           alt="Vrushabha Farms"
           className="h-32 w-32 sm:h-40 sm:w-40 object-contain animate-pulse"
         />

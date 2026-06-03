@@ -1,6 +1,11 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import cows3 from "@/assets/cows3.jpeg";
+import cows1 from "@/assets/cows1.jpeg";
+import byri1 from "@/assets/byri1.jpeg";
+import bheema1 from "@/assets/bheema1.jpeg";
+import partha1 from "@/assets/partha1.jpeg";
 
 const reasons = [
   { title: "Indigenous Gir Cows", desc: "Our ghee comes exclusively from native Gir cows, known for producing the finest A2 milk rich in nutrients." },
@@ -10,11 +15,11 @@ const reasons = [
 ];
 
 const cowImages = [
-  { image: "/src/assets/cows3.jpeg", name: "Our Gir Cows" },
-  { image: "/src/assets/cows1.jpeg", name: "Our Herd" },
-  { image: "/src/assets/byri1.jpeg", name: "Byri" },
-  { image: "/src/assets/bheema1.jpeg", name: "Bheema" },
-  { image: "/src/assets/partha1.jpeg", name: "Partha" },
+  { image: cows3, name: "Our Gir Cows" },
+  { image: cows1, name: "Our Herd" },
+  { image: byri1, name: "Byri" },
+  { image: bheema1, name: "Bheema" },
+  { image: partha1, name: "Partha" },
 ];
 
 const WhyChooseUs = () => {
