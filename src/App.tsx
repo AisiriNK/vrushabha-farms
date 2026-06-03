@@ -19,7 +19,7 @@ const App = () => (
         <Loading />
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/vrushabha-farms/">
+        <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/our-story" element={<OurStoryPage />} />
